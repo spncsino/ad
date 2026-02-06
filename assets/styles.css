@@ -15,6 +15,9 @@
 @media (prefers-color-scheme: dark){
   :root{ --bg:#0b1b20; --ink:#e6f2f4; --muted:#9fb4b8; --card:#0f2429; --line:#17383f; }
 }
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:1000}
+.modal{background:var(--card);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:22px;width:min(520px,92vw);box-shadow:var(--shadow)}
+
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;font-size:var(--step-0);line-height:1.65}
 img{max-width:100%;height:auto}
